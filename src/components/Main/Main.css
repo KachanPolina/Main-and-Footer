@@ -1,0 +1,51 @@
+#main {
+  min-height: calc(100vh - 100px - 60px);
+  width: 100%;
+  background-color: rgb(212, 212, 212);
+}
+
+.movie-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.plot {
+  margin: 15px 70px;
+  min-width: 300px;
+  min-height: 100px;
+  font-size: 18px;
+}
+
+.plot h3 {
+  font-size: 25px;
+  margin: 5px;
+}
+
+.other-info {
+  min-width: 400px;
+  min-height: 200px;
+  display: flex;
+}
+
+.actors,
+.info {
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+.actors h3,
+.info h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.actors li {
+  list-style: none;
+  margin: 5px;
+}
+
+img {
+  margin-bottom: 15px;
+}

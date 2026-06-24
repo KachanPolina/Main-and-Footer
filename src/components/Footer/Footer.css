@@ -1,0 +1,18 @@
+footer {
+  width: 100%;
+  min-height: 100px;
+  background-color: rgb(54, 27, 130);
+}
+
+.footer-info {
+  padding-top: 10px;
+  width: 100%;
+  min-height: 100%;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+.footer-info p {
+  margin-bottom: 10px;
+}
